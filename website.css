@@ -61,3 +61,12 @@ body{
 .carousel-indicators{
     margin-bottom: 0px;
 }
+
+.pow{
+    color: white;
+}
+
+.portrait{
+    width: 60%;
+    height: 70%;
+}
