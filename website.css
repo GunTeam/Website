@@ -9,7 +9,7 @@
 }
 
 body{
-  background: linear-gradient(to bottom right, black, darkgrey); 
+    background-image: url("nighttime.png");
 }
 
 .scribble{
@@ -36,18 +36,12 @@ body{
 }
 
 .carousel-caption{
-    background : linear-gradient(to right, rgba(50, 50, 50, .5),  rgba(155, 155, 155,.5));
+    background : rgba(50, 50, 50, .5);
     width : 100%;
 
     left: 0px;
     right: 0px;
     bottom: 0px;
-
-/*
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-*/
 }
 
 .opaque{
@@ -69,4 +63,15 @@ body{
 .portrait{
     width: 60%;
     height: 70%;
+}
+
+.changeGrad1{
+    background: linear-gradient(to bottom, rgba(50, 50, 50, .5),  rgba(155, 155, 155,.5));; 
+}
+
+.changeGrad{
+    background: linear-gradient(to bottom,rgba(155, 155, 155,.5),rgba(50, 50, 50, .5));
+}
+.changeGrad2{
+    background: linear-gradient(to bottom, rgba(50, 50, 50, .5),  rgba(155, 155, 155,.5));; 
 }
